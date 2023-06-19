@@ -8,6 +8,10 @@
 int main(void)
 {
 	char c;
+	char a;
+	char z;
+	char A;
+	char Z;
 
 	for (c = 'a' ; c <= z ; c++)
 
