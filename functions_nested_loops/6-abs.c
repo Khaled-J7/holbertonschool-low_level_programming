@@ -1,15 +1,11 @@
 #include "main.h"
 /**
- * _abs - calculate the absolute value of the number from zero.
- *@y: the integer to be converted.
- * Return: absolute value of the input number.
+ * _abs - compute the absolute value of a number
+ *@i: The value to test
+ *
+ * Return: The absolute value of i.
  */
-int _abs(int y)
+int _abs(int i)
 {
-	if (y > 0)
-	{
-		return (y);
-	}
-	return (-y);
-
+	return (i < 0 ? -i : i);
 }
