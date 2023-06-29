@@ -2,14 +2,17 @@
 
 /**
 
- * reset_to_98 - updates the value of the variable
+ * swap_int - Swaps the values of two integers
 
- * the pointer points to to 98
+ *@a: Pointer to the first integer
 
- *@n: pointer to the variable to update
+ *@b: Pointer to the second integer
+
+ * Description: This function swaps the values of the integers pointed to by 'a'
+
+ *              and 'b' using a temporary variable.
 
  */
-
 void reset_to_98(int *n)
 
 {
