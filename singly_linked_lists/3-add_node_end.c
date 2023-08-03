@@ -3,7 +3,6 @@
 /**
  * get_length - returns the length of a string
  * @str: string parameter
- *
  * Return: length of @str
  */
 unsigned int get_length(const char *str)
@@ -25,7 +24,6 @@ unsigned int get_length(const char *str)
  * add_node_end - adds a new node to end of linked list
  * @head: pointer to pointer to linked list
  * @str: used to set the str attribute of the new node
- *
  * Return: address of linked list of NULL
  */
 list_t *add_node_end(list_t **head, const char *str)
@@ -51,7 +49,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	}
 
 	while (last->next != NULL)
-		last = last->next;
+	last = last->next;
 	last->next = new;
 	return (*head);
 }
